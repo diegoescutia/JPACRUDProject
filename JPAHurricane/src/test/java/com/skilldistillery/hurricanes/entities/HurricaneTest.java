@@ -42,9 +42,16 @@ class HurricaneTest {
 	}
 
 	@Test
-	void Hurricane_entity_mapping() {
+	void Test_Hurricane_Entity_Mapping() {
 		assertNotNull(hurr);
-		assertEquals("Diego", hurr.getName());
+		assertEquals("Irene", hurr.getName());
+		assertEquals(1, hurr.getCategory());
+		assertEquals(2003, hurr.getYear());
+		assertEquals("North Carolina", hurr.getState());
+		assertEquals(120, hurr.getMaxWind());
+		assertEquals("$13.5 billion", hurr.getCost());
+		assertEquals(58, hurr.getFatalities());
+		
 	}
 
 }
