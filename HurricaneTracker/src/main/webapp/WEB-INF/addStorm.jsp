@@ -7,11 +7,13 @@
 	<meta charset="UTF-8">
 	<title>Add Storm</title>
 	<jsp:include page="bootstrapHead.jsp"/>
+	<link rel="stylesheet" href="CSS/Styling.css">
+	
 </head>
-<body>
+<body class="addStorm">
 <jsp:include page="navbar.jsp"/>
 
-
+<div class="container">
  <h3>Add new Hurricane:</h3>
         <form action="addHurricanes.do" method="get">
             <label for="name">Name: </label> <input type="text" name="name"><br>
@@ -24,8 +26,9 @@
             <input type="submit" value="Add Hurricane" class="btn btn-primary">
         </form>
 
+</div>
 
-
+<img alt="" src="https://www.weather.gov/images/mob/events/michael/1010_Sat_Michael_745a.gif">
 <jsp:include page="bootstrapFoot.jsp"/>
 </body>
 </html>

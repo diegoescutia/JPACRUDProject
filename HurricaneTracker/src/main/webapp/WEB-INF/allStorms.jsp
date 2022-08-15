@@ -8,10 +8,12 @@
 <meta charset="UTF-8">
 <title>Storm List</title>
 <jsp:include page="bootstrapHead.jsp" />
+<link rel="stylesheet" href="CSS/Styling.css">
+
 </head>
-<body>
+<body class="allStorms">
 	<jsp:include page="navbar.jsp" />
-	<h1>List of All Hurricanes Since 2010</h1>
+	<h1 class="header">List of All Hurricanes Since 2010</h1>
 
 	<table class="table table-dark table-striped">
 		<thead>
